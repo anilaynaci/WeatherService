@@ -1,0 +1,6 @@
+[
+  {"name": "Istanbul", "temperature": "8", "unit": "Celcius"},
+  {"name": "Prag", "temperature": "10", "unit": "Celcius"},
+  {"name": "Los Angeles", "temperature": "9", "unit": "Celcius"},
+  {"name": "Kiev", "temperature": "-5", "unit": "Celcius"}
+]
