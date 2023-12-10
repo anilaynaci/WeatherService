@@ -1,16 +1,9 @@
 # WeatherService
 
-# Docker deployment procedure
-
- While in the project home directory, the following codes should be executed sequentially
-
-    1.docker pull anilaynaci/weather-service
-    2.docker run -p 8080:8080 -d anilaynaci/weather-service
-
 ## Sample requests
 
-    curl -X POST -H "Content-Type: application/json" -d '{"query": "Istanbul"}' http://localhost:8080/temperature
-    curl -X POST -H "Content-Type: application/json" -d '{"query": "Test"}' http://localhost:8080/temperature
-    curl -X GET "http://localhost:8080/temperature?city=kuala%20lumpur"
-    curl -X GET "http://localhost:8080/temperature?city=Istanbul"
+    curl -X POST -H "Content-Type: application/json" -d '{"query": "Istanbul"}' https://p01--weather--ny7zrz7lxf2q.code.run/temperature
+    curl -X POST -H "Content-Type: application/json" -d '{"query": "Test"}' https://p01--weather--ny7zrz7lxf2q.code.run/temperature
+    curl -X GET "https://p01--weather--ny7zrz7lxf2q.code.run/temperature?city=kuala%20lumpur"
+    curl -X GET "https://p01--weather--ny7zrz7lxf2q.code.run/temperature?city=Istanbul"
 
